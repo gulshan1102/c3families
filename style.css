@@ -20,7 +20,7 @@ color: #ffffff;
 padding-top: 180px;
 }
 .banner-text h1{
-    font-size: 100px;
+    font-size: 90px;
     font-family: 'Kaushan Script', cursive;
 }
 .banner-text p{
@@ -97,15 +97,17 @@ nav ul li a{
 }
 @media screen and (max-width: 770px){
 .banner-text h1{
-    font-size: 44px;  
+    font-size: 40px;
+    margin-top: 10%;
+    position: center;  
     }
     .banner-btn a{
         display: block;
         margin: 20px auto;
+        }
        
-        
     }
-}
+        
 
 /*--feature--*/
 
@@ -346,56 +348,39 @@ header{
 }
 /*---youth---*/
 
-#youth{
+.youth-gallery{
+    width: 80%;
+    margin: 100px auto 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, ifr));
+    grid-gap: 30px;
+
+}
+.youth-gallery img{
     width: 100%;
-    padding: 70px 0;
+    cursor: pointer;
 }
-.details p{
-    margin: auto;
-    margin-left: 50%;
-    font-size: 20px;
-    color: #009688;
-    font-weight: bold;
-    position: relative;
-    z-index: 1;
-    display: inline-block; 
+.youth-gallery img:hover{
+    transform: scale(0.8) rotate(-15deg);
+    border-radius: 20px;
+    box-shadow: 0 32px 75px rgba(68,77,136,0.2);
 }
-.details h3{
-    margin-left: 5%;
-}
-.details img{
-    position: relative;
-    margin-left: 2%;
-    width: 30%;
-    height: 30%;
-}
+
 
 /*---child---*/
 
-#child{
-    width: 100%;
-    padding: 70px 0;
-}
-.details-child p{
-    margin: auto;
-    margin-left: 50%;
-    font-size: 20px;
-    color: #009688;
-    font-weight: bold;
-    position: relative;
-    z-index: 1;
-    display: inline-block; 
-}
-.details-child h3{
-    margin-left: 5%;
-}
-.details-child img{
-    position: relative;
-    margin-left: 2%;
-    width: 30%;
-    height: 30%;
-}
+.child-gallery{
+    width: 80%;
+    margin: 100px auto 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, ifr));
+    grid-gap: 30px;
 
+}
+.child-gallery img{
+    width: 100%;
+    cursor: pointer;
+}
 
 /*---Sunday Prayers---*/
 
@@ -405,7 +390,7 @@ header{
 }
 .prayer-details p{
     margin: auto;
-    margin-left: 50%;
+    margin-left: 40%;
     font-size: 20px;
     color: #009688;
     font-weight: bold;
@@ -432,7 +417,7 @@ header{
 }
 .festival-details p{
     margin: auto;
-    margin-left: 50%;
+    margin-left: 40%;
     font-size: 20px;
     color: #009688;
     font-weight: bold;
