@@ -3,7 +3,7 @@
     padding: 0;
 }
 #banner{
-    background-image: linear-gradient(rgba(0,0,0,0.75),#4b5c5a),url(images/C3church.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.75),#5f9c95),url(images/C3church.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -20,7 +20,7 @@ color: #ffffff;
 padding-top: 180px;
 }
 .banner-text h1{
-    font-size: 90px;
+    font-size: 80px;
     font-family: 'Kaushan Script', cursive;
 }
 .banner-text p{
@@ -63,7 +63,7 @@ padding-top: 180px;
 
 #sidenav{
     height: 550%;
-    width: 40vh;
+    width: 20vh;
     position: fixed;
     right: 0;
     top: 0;
@@ -151,6 +151,7 @@ nav ul li a{
     width: 100%;
     padding: 70px 0;
     background: #efefef;
+    background-image: linear-gradient(rgba(233, 233, 233, 0.75),#747978), url(images/wp\ copy.jpg);
 }
 .service-box{
     width: 80%;
@@ -230,6 +231,13 @@ hr{
 #testimonial{
     width: 100%;
     padding: 70px 0;
+    background-image: linear-gradient(rgba(233, 233, 233, 0.75),#747978), url(images/wp\ copy.jpg);
+}
+.tittle-text h1{
+    margin-left: 5%;
+}
+.heading h3{
+    margin-left: 5%;
 }
 .testimonial-row{
     width: 80%;
@@ -294,6 +302,7 @@ hr{
     width: 100%;
     padding: 70px 0;
     background: #efefef;
+    background-image: linear-gradient(rgba(191, 227, 243, 0.75),#747978), url(images/wp\ copy.jpg);
 }
 .tittle-text p{
     margin: auto;
@@ -361,7 +370,6 @@ header{
     cursor: pointer;
 }
 .youth-gallery img:hover{
-    transform: scale(0.8) rotate(-15deg);
     border-radius: 20px;
     box-shadow: 0 32px 75px rgba(68,77,136,0.2);
 }
@@ -386,7 +394,8 @@ header{
 
 #prayer{
     width: 100%;
-    padding: 70px 0;
+    padding: 10px 0;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.75),#a7efe8bf), url(images/wp\ copy.jpg);
 }
 .prayer-details p{
     margin: auto;
@@ -398,7 +407,7 @@ header{
     z-index: 1;
     display: inline-block; 
 }
-.prayer-details h3{
+.prayer-details h1{
     margin-left: 5%;
 }
 .prayer-details img{
@@ -413,19 +422,21 @@ header{
 
 #festival{
     width: 100%;
-    padding: 70px 0;
+    padding: 30px 0;
+    background-image: linear-gradient(rgba(167, 239, 232, 0.75),#ffffff), url(images/wp\ copy.jpg);
 }
 .festival-details p{
     margin: auto;
-    margin-left: 40%;
-    font-size: 20px;
+    margin-left: 50%;
+    margin-top: 0%;
+    font-size: 30px;
     color: #009688;
     font-weight: bold;
     position: relative;
     z-index: 1;
     display: inline-block; 
 }
-.festival-details h3{
+.festival-details h1{
     margin-left: 5%;
 }
 .festival-details img{
@@ -440,6 +451,7 @@ header{
     padding: 100px 0 20px;
     background: #efefef;
     position: relative;
+    background-image: linear-gradient(rgba(86, 115, 112, 0.75),#ffffff), url(images/wp\ copy.jpg);
 }
 .footer-row{
     width: 80%;
