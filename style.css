@@ -63,7 +63,7 @@ padding-top: 180px;
 
 #sidenav{
     height: 550%;
-    width: 20vh;
+    width: 30vh;
     position: fixed;
     right: 0;
     top: 0;
@@ -445,6 +445,17 @@ header{
     width: 30%;
     height: 30%;
 }
+
+/*---donate---*/
+.container{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;  
+}
+.label img{
+    margin-left: 10%;
+
+}
 /*---footer---*/
 
 #footer{
@@ -519,3 +530,4 @@ header{
         top: 25%;
     }
 }
+
