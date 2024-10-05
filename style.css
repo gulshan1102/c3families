@@ -3,7 +3,7 @@
     padding: 0;
 }
 #banner{
-    background-image: linear-gradient(rgba(0,0,0,0.75),#5f9c95),url(images/C3church.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.75),#9c5f93),url(images/C3church.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
